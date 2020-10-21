@@ -104,11 +104,12 @@ por lo que indica que cada par de números representa a R (FF) G (00) B (00)*/
     align-items: center;
 }*/
 
-#towatch {
+/* #towatch {
     font-size: 1.5em;
-}
+} */
 
 .list_item {
     background-color: lightblue;
-    padding: 3px;
+    padding: 2px;
+    margin: 3px;
 }
