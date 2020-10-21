@@ -106,5 +106,9 @@ por lo que indica que cada par de números representa a R (FF) G (00) B (00)*/
 
 #towatch {
     font-size: 1.5em;
-    align-items: center;
+}
+
+.list_item {
+    background-color: lightblue;
+    padding: 3px;
 }
