@@ -17,106 +17,152 @@
 
         <div class="ind"><h2>Indicadores</h2>
             <hr>
-            <ul>
-                <li>
-                    <!-- TradingView EURUSD BEGIN -->
-                        <div class="tradingview-widget-container">
-                        <div class="tradingview-widget-container__widget"></div>
-                        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/EURUSD/?exchange=FX" rel="noopener" target="_blank"><span class="blue-text">EURUSD Rates</span></a> by TradingView</div>
-                        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
-                        {
-                        "symbol": "FX:EURUSD",
-                        "width": "300",
-                        "height": "160",
-                        "locale": "en",
-                        "dateRange": "1D",
-                        "colorTheme": "dark",
-                        "trendLineColor": "#37a6ef",
-                        "underLineColor": "rgba(55, 166, 239, 0.15)",
-                        "isTransparent": false,
-                        "autosize": true,
-                        "largeChartUrl": ""
-                    }
-                        </script>
-                    </div>
-                    <!-- TradingView EURUSD END -->
-                </li>
-                <li class="TradingView_item">
-                    <!-- TradingView Silver BEGIN -->
-                        <div class="tradingview-widget-container">
-                            <div class="tradingview-widget-container__widget"></div>
-                            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/TVC-SILVER/" rel="noopener" target="_blank"><span class="blue-text">SILVER Quotes</span></a> by TradingView</div>
-                            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
-                            {
-                            "symbol": "TVC:SILVER",
-                            "width": "300",
-                            "height": "160",
-                            "locale": "en",
-                            "dateRange": "1D",
-                            "colorTheme": "dark",
-                            "trendLineColor": "#37a6ef",
-                            "underLineColor": "rgba(55, 166, 239, 0.15)",
-                            "isTransparent": false,
-                            "autosize": true,
-                            "largeChartUrl": ""
-                        }
-                            </script>
-                        </div>
-                    <!-- TradingView Silver END -->
-                </li>
-                <li class="TradingView_item">
-                    <!-- TradingView Gold BEGIN -->
-                        <div class="tradingview-widget-container">
-                            <div class="tradingview-widget-container__widget"></div>
-                            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/TVC-GOLD/" rel="noopener" target="_blank"><span class="blue-text">GOLD Quotes</span></a> by TradingView</div>
-                            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
-                                {
-                                "symbol": "TVC:GOLD",
-                                "width": "300",
-                                "height": "160",
-                                "locale": "en",
-                                "dateRange": "1D",
-                                "colorTheme": "dark",
-                                "trendLineColor": "#37a6ef",
-                                "underLineColor": "rgba(55, 166, 239, 0.15)",
-                                "isTransparent": false,
-                                "autosize": true,
-                                "largeChartUrl": ""}
-                            </script>
-                        </div>
-                    <!-- TradingView Gold END -->
-                </li>
-                <li class="TradingView_item">
-                    <!-- TradingView BTCUSD BEGIN -->
-                        <div class="tradingview-widget-container">
-                            <div class="tradingview-widget-container__widget"></div>
-                            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BTCUSD/?exchange=BITBAY" rel="noopener" target="_blank"><span class="blue-text">BTCUSD Rates</span></a> by TradingView</div>
-                            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
-                            {
-                            "symbol": "BITBAY:BTCUSD",
-                            "width": "300",
-                            "height": "160",
-                            "locale": "en",
-                            "dateRange": "1M",
-                            "colorTheme": "dark",
-                            "trendLineColor": "#37a6ef",
-                            "underLineColor": "rgba(55, 166, 239, 0.15)",
-                            "isTransparent": false,
-                            "autosize": false,
-                            "largeChartUrl": ""
-                        }
-                            </script>
-                        </div>
-                    <!-- TradingView BTCUSD END -->
-                </li>
-            </ul>
+            <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Financial Markets</span></a> by TradingView</div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+    {
+    "colorTheme": "dark",
+    "dateRange": "12M",
+    "showChart": true,
+    "locale": "en",
+    "largeChartUrl": "",
+    "isTransparent": false,
+    "showSymbolLogo": true,
+    "width": "400",
+    "height": "600",
+    "plotLineColorGrowing": "rgba(0, 255, 0, 1)",
+    "plotLineColorFalling": "rgba(255, 0, 0, 1)",
+    "gridLineColor": "rgba(42, 46, 57, 1)",
+    "scaleFontColor": "rgba(120, 123, 134, 1)",
+    "belowLineFillColorGrowing": "rgba(182, 215, 168, 0.12)",
+    "belowLineFillColorFalling": "rgba(234, 153, 153, 0.12)",
+    "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
+    "tabs": [
+      {
+        "title": "Indices",
+        "symbols": [
+          {
+            "s": "FX:EURUSD",
+            "d": "Euro"
+          },
+          {
+            "s": "FX_IDC:USDCLP",
+            "d": "Pesos Chilenos a Dólar"
+          },
+          {
+            "s": "TVC:SILVER",
+            "d": "Plata"
+          },
+          {
+            "s": "TVC:GOLD",
+            "d": "Oro"
+          },
+          {
+            "s": "COINBASE:BTCUSD",
+            "d": "Bitcoin"
+          }
+        ],
+        "originalTitle": "Indices"
+      },
+      {
+        "title": "Commodities",
+        "symbols": [
+          {
+            "s": "CME_MINI:ES1!",
+            "d": "S&P 500"
+          },
+          {
+            "s": "CME:6E1!",
+            "d": "Euro"
+          },
+          {
+            "s": "COMEX:GC1!",
+            "d": "Gold"
+          },
+          {
+            "s": "NYMEX:CL1!",
+            "d": "Crude Oil"
+          },
+          {
+            "s": "NYMEX:NG1!",
+            "d": "Natural Gas"
+          },
+          {
+            "s": "CBOT:ZC1!",
+            "d": "Corn"
+          }
+        ],
+        "originalTitle": "Commodities"
+      },
+      {
+        "title": "Bonds",
+        "symbols": [
+          {
+            "s": "CME:GE1!",
+            "d": "Eurodollar"
+          },
+          {
+            "s": "CBOT:ZB1!",
+            "d": "T-Bond"
+          },
+          {
+            "s": "CBOT:UB1!",
+            "d": "Ultra T-Bond"
+          },
+          {
+            "s": "EUREX:FGBL1!",
+            "d": "Euro Bund"
+          },
+          {
+            "s": "EUREX:FBTP1!",
+            "d": "Euro BTP"
+          },
+          {
+            "s": "EUREX:FGBM1!",
+            "d": "Euro BOBL"
+          }
+        ],
+        "originalTitle": "Bonds"
+      },
+      {
+        "title": "Forex",
+        "symbols": [
+          {
+            "s": "FX:EURUSD"
+          },
+          {
+            "s": "FX_IDC:USDCLP"
+          },
+          {
+            "s": "FX:GBPUSD"
+          },
+          {
+            "s": "FX_IDC:USDARS"
+          },
+          {
+            "s": "FX_IDC:USDBRL"
+          }
+        ],
+        "originalTitle": "Forex"
+      }
+    ]
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+            <hr>
         </div>
         <div id="courses">
             <h2>Cursos</h2>
             <hr>
             <ul>
                 <li class="list_item">
-                    <a target="blank" href="https://platzi.com/clases/python-cs/">Introducción al pensamiento computacional con Python</a>
+                    <a target="blank" title="Tecnologías de acceso a internet: Banda Ancha y velocidad de Internet" href="https://platzi.com/clases/1277-redes/11152-tecnologias-de-acceso-a-internet-banda-ancha-y-vel/">Redes - Clase 5</a>
+                </li>
+                <li class="list_item" >
+                    <a target="blank" title="Historia de las Bases de datos relacionales" href="https://platzi.com/clases/1566-bd/20196-historia-de-las-rdb/">Bases de datos - Clase 2</a>
                 </li>
             </ul>
         </div>
